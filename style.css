@@ -1,0 +1,259 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style-type: none;}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    cursor: pointer;
+}
+.navItem a img {
+    width: 15px;
+  }
+.btn-success:hover{
+    background-color: #181818;
+}
+.btnTry{
+    font-size: 16px !important;
+    height: 2.5rem !important;
+}
+
+.sectionOne {
+    padding-top: 80px;
+    
+    background-image: url(./img/cost-savings-lg-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+.sectionOneContent  a{
+    font-size: 52px;
+    color: #032D60;
+}
+
+.sectionOneContent p{
+    font-size: 22px;
+    color: #181818;
+}
+.btn-primary:hover{
+    background-color: #034e8c;
+
+}
+.btn-outline-primary:hover{
+    background-color: #d8e6fe;
+    color:#0176d5 ;
+}
+
+.sectionTwo h2{
+    color: #032D60;
+}
+.sfCard h4, .sfCard small{
+    color: #032D60; 
+}
+.sectionThree h2{
+    color: #032D60;
+}
+.sthreeCard h3{
+    color: #032D60;
+}
+.sthreeCard h6{
+    color: #032D60;
+}
+.sectionfour h2{
+    color: #032D60;
+}
+.textHold h1{
+    color: #032D60;
+}
+.textHold h3{
+    color: #032D60;
+}
+.textHold h6{
+    color: #032D60;
+}
+.sectionFive h1{
+    color: #032D60;
+}
+.sectionSix h2{
+    color: #032D60;
+}
+.sectionSeven .card img{
+    width: 100px;
+    
+}
+.sectionSeven .card {
+    height: 350px;
+    
+}
+.sectionEight .card {
+    height: 150px;
+    
+}
+.sectionSeven h2{
+    color: #032D60;
+}
+.sectionEight h2, h4, h6{
+    color: #032D60;
+}
+.sectionEight .card-body{
+    text-align: left;
+}
+.sectionNine{
+    overflow: hidden;
+}
+.sectionNineContent{
+    
+    margin-top: 5rem;
+}
+.sectionNineContent h1{
+    color: #032D60;
+    
+}
+.sectionTen{
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+.sectionTenContent h1{
+    color: #032D60;
+    
+}
+.sectionEleven{
+    background:  #bbd9fff3;
+    padding: 80px;
+    margin-top: 5rem;
+    
+}
+.offsetUp{
+    left: 0;
+    top: -120px;
+}
+.offsetUp img{
+    width: 220px;
+    height: 220px;
+}
+.offsetDown{
+    right: 0;
+    bottom: -90px;
+}
+.offsetDown img{
+    width: 220px;
+    height: 220px;
+}
+.sectionEleven h2{
+    color: #032D60;
+    margin-top: 2rem;
+}
+
+.firstFooter{
+    margin-top: 4rem !important;
+}
+.firstFooter ul li a{
+    margin-top: 3rem;
+}
+.secondFooter{
+    background-color: #032E61;
+    padding-top: 1rem !important;
+    
+}
+.footer-ul{
+    padding-left: 0 !important;
+}
+.footer-btn{
+    cursor: pointer;
+    border: 1px solid #ffff !important;
+    height: 40px !important;
+    color: #ffff !important;
+}
+.footer-btn img{
+    width: 20px;
+}
+.copyRight {
+    color: #ffff;
+    font-size: 12px !important;
+}
+.copyRight a {
+    font-size: 12px !important;
+}
+.copyRight a:hover {
+    color: #ffff;
+}
+.secondFooterLink a{
+    font-size: 12px;
+    margin: 0rem 0.5rem;
+}
+.secondFooterLink a:hover{
+   color: #ffff;
+}
+
+/* Responsive Media Querry */
+@media screen and (max-width:1024px){
+    .firstFooter{
+        display: none !important;
+    }
+   .secondFooter{
+    margin-top: 5rem;
+   }
+   .btn-span{
+    font-size: 12px;
+   }
+   .footer-btn img{
+    width: 15px;
+}
+}
+
+@media screen and (max-width:1017px){
+    .btnTry{
+        font-size: 12px !important;
+        line-height: 0.9rem;
+        
+    }
+}
+@media screen and (max-width:991px){
+    
+}
+@media screen and (max-width:768px){
+   .reverse{
+    flex-direction: row-reverse;
+   }
+   .reverse img{
+    width: 250px;
+   }
+  
+}
+@media screen and (max-width:650px){
+    .offsetUp img{
+        width: 180px;
+        height: 180px;
+    }
+    .offsetDown img{
+        width: 180px;
+        height: 180px;
+    }
+    .offsetDown{
+        right: 0;
+        bottom: -50px;
+    }
+    .offsetUp{
+        left: 0;
+        top: -120px;
+    }
+    .sectionEleven{
+        padding: 50px;
+    }
+}
+@media screen and (max-width:510px){
+    
+    .reverse h6{
+     font-size: 12px;
+    }
+    .reverse h3{
+     font-size: 12px;
+    }
+    .reverse p{
+     font-size: 11px !important;
+    }
+ }
